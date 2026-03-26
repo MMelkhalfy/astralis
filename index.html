@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Astralis SMP | A World Shaped by Choices</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&family=Space+Grotesk:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      html {
+        scroll-behavior: smooth; /* Native smooth scrolling */
+      }
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #050505;
+        color: #e2e8f0;
+      }
+      .heading-font {
+        font-family: 'Space Grotesk', sans-serif;
+      }
+      .glass {
+        background: rgba(255, 255, 255, 0.03);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+      .glow {
+        box-shadow: 0 0 25px rgba(139, 92, 246, 0.4);
+      }
+      .gradient-text {
+        background: linear-gradient(to right, #a78bfa, #f472b6);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      /* Hide elements before ScrollReveal kicks in to prevent flicker */
+      .reveal {
+        visibility: hidden;
+      }
+    </style>
+  </head>
+  <body class="overflow-x-hidden">
+    <header
+      class="relative min-h-screen flex items-center justify-center text-center px-6 overflow-hidden"
+    >
+      <div class="absolute top-0 left-0 w-full h-full -z-10">
+        <div
+          class="absolute top-1/4 left-1/4 w-96 h-96 bg-purple-600/20 rounded-full blur-[120px] animate-pulse"
+        ></div>
+        <div
+          class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-blue-600/10 rounded-full blur-[120px] animate-pulse"
+          style="animation-delay: 2s"
+        ></div>
+      </div>
+
+      <div class="max-w-4xl">
+        <h1
+          class="reveal heading-font text-6xl md:text-9xl font-black mb-4 tracking-tighter uppercase italic"
+        >
+          Astralis <span class="gradient-text">SMP</span>
+        </h1>
+        <p
+          class="reveal text-xl md:text-2xl font-light tracking-wide text-gray-400 mb-8"
+          style="transition-delay: 200ms"
+        >
+          A world shaped by <span class="text-white">choices</span>,
+          <span class="text-white">chaos</span>, and
+          <span class="text-white">power</span>.
+        </p>
+        <div
+          class="reveal flex flex-col md:flex-row gap-4 justify-center"
+          style="transition-delay: 400ms"
+        >
+          <a
+            href="https://discord.gg/6cuNW9wVhb"
+            target="_blank"
+            class="px-8 py-4 bg-white text-black font-bold uppercase tracking-widest hover:bg-purple-500 hover:text-white transition-all duration-300 glow"
+          >
+            Join the World
+          </a>
+          <a
+            href="#about"
+            class="px-8 py-4 border border-white/20 hover:bg-white/10 transition-all duration-300"
+          >
+            Learn More
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <section
+      class="reveal py-20 px-6 max-w-5xl mx-auto text-center border-t border-white/5"
+    >
+      <p class="text-lg md:text-xl leading-relaxed text-gray-300 italic">
+        "Astralis isn’t just another survival server. Every action matters.
+        Every alliance has a cost. And every player writes the story."
+      </p>
+    </section>
+
+    <section id="about" class="py-24 px-6 bg-stone-950/50">
+      <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+        <div class="reveal">
+          <h2 class="heading-font text-4xl font-bold mb-6">About the Server</h2>
+          <div class="space-y-4 text-gray-400 text-lg">
+            <p>
+              Astralis SMP is a semi-scripted survival multiplayer experience
+              inspired by chaotic, story-driven SMPs.
+            </p>
+            <p>
+              This isn’t just about grinding or building — it’s about
+              <span class="text-purple-400"
+                >conflict, alliances, betrayal, and power.</span
+              >
+            </p>
+            <p>
+              Here, players aren’t just players. They’re characters in a world
+              that’s constantly evolving.
+            </p>
+          </div>
+        </div>
+        <div
+          class="reveal glass p-8 rounded-2xl relative overflow-hidden group"
+        >
+          <div
+            class="absolute inset-0 bg-purple-500/10 opacity-0 group-hover:opacity-100 transition-opacity"
+          ></div>
+          <h3
+            class="text-6xl font-black opacity-10 absolute -bottom-4 -right-4 italic"
+          >
+            ASTRALIS
+          </h3>
+          <p class="relative z-10 text-2xl font-medium">
+            "In Astralis, every moment has weight."
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-24 px-6 max-w-6xl mx-auto">
+      <h2
+        class="reveal heading-font text-center text-3xl font-bold mb-16 uppercase tracking-widest"
+      >
+        What Makes Us Different
+      </h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div
+          class="reveal glass p-8 hover:scale-105 transition-transform duration-300"
+        >
+          <h4
+            class="font-bold text-purple-400 mb-2 uppercase text-sm tracking-tighter"
+          >
+            01. Dynamic Scripting
+          </h4>
+          <p class="text-gray-400">
+            Major events are planned, but your reactions aren’t.
+          </p>
+        </div>
+        <div
+          class="reveal glass p-8 hover:scale-105 transition-transform duration-300"
+          style="transition-delay: 100ms"
+        >
+          <h4
+            class="font-bold text-purple-400 mb-2 uppercase text-sm tracking-tighter"
+          >
+            02. Real Consequences
+          </h4>
+          <p class="text-gray-400">
+            Your decisions impact the world and the people in it.
+          </p>
+        </div>
+        <div
+          class="reveal glass p-8 hover:scale-105 transition-transform duration-300"
+          style="transition-delay: 200ms"
+        >
+          <h4
+            class="font-bold text-purple-400 mb-2 uppercase text-sm tracking-tighter"
+          >
+            03. Narrative-First
+          </h4>
+          <p class="text-gray-400">
+            This isn't just survival—it's story-driven gameplay.
+          </p>
+        </div>
+        <div
+          class="reveal glass p-8 hover:scale-105 transition-transform duration-300"
+          style="transition-delay: 300ms"
+        >
+          <h4
+            class="font-bold text-purple-400 mb-2 uppercase text-sm tracking-tighter"
+          >
+            04. High Stakes
+          </h4>
+          <p class="text-gray-400">
+            No one is ever fully safe. Not even allies.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="join" class="py-24 px-6 relative overflow-hidden">
+      <div
+        class="absolute top-0 left-0 w-full h-full bg-purple-900/10 -z-10"
+      ></div>
+      <div class="max-w-4xl mx-auto text-center">
+        <h2
+          class="reveal heading-font text-4xl md:text-6xl font-bold mb-8 italic"
+        >
+          The Experience
+        </h2>
+        <p class="reveal text-xl mb-12 text-gray-300">
+          A simple decision can start a war. A single betrayal can change
+          everything.
+        </p>
+
+        <div class="reveal glass p-10 rounded-3xl mb-12">
+          <h3 class="text-2xl font-bold mb-6">If you want...</h3>
+          <ul class="text-left space-y-4 inline-block mx-auto">
+            <li class="flex items-center gap-3">
+              <span class="w-2 h-2 bg-purple-500"></span> Intense storylines
+            </li>
+            <li class="flex items-center gap-3">
+              <span class="w-2 h-2 bg-purple-500"></span> Real player-driven
+              conflict
+            </li>
+            <li class="flex items-center gap-3">
+              <span class="w-2 h-2 bg-purple-500"></span> Cinematic,
+              unforgettable moments
+            </li>
+          </ul>
+        </div>
+
+        <div class="reveal space-y-6">
+          <p
+            class="text-2xl heading-font font-bold uppercase tracking-widest text-purple-400"
+          >
+            This world doesn’t wait.
+          </p>
+          <a
+            href="https://discord.gg/6cuNW9wVhb"
+            target="_blank"
+            class="inline-block px-12 py-5 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-black text-xl uppercase italic transform hover:scale-110 transition-all glow"
+          >
+            Join the Story
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer
+      class="py-12 text-center text-gray-600 text-sm uppercase tracking-widest border-t border-white/5"
+    >
+      &copy; 2026 Astralis SMP. All Rights Reserved.
+    </footer>
+
+    <script>
+      // Initializing ScrollReveal Animations
+      ScrollReveal().reveal('.reveal', {
+        distance: '50px',
+        duration: 1000,
+        easing: 'cubic-bezier(0.5, 0, 0, 1)',
+        interval: 150,
+        origin: 'bottom',
+        opacity: 0,
+      });
+    </script>
+  </body>
+</html>
